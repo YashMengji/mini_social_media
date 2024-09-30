@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/stylesheets/output.css">
+</head>
+<body>
+  <div class="w-full min-h-screen bg-zinc-900 p-10" >
+    <h3 class="text-white tracking-tighter text-3xl mb-5">Upload file</h3>
+    <form  action="/multer" method="post" enctype="multipart/form-data">
+      <input class="rounded-md text-white" type="file" name="imageInput">
+      <input class="px-3 py-2 rounded-md bg-blue-500 cursor-pointer text-white" type="submit" value="Upload file">
+    </form>
+  </div>
+</body>
+</html>
